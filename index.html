@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Horloge</title>
+</head>
+<body>
+    
+    <section class="clock container">
+        <div class="clock_container grid">
+            <div class="clock_content grid">
+                <div class="clock_circle">
+                    <span class="clock_twelve">0011</span>
+                    <span class="clock_three">11</span>
+                    <span class="clock_six">011</span>
+                    <span class="clock_nine">1001</span>
+
+                    <div class="clock_rounder"></div>
+                    <div class="clock_hour" id="clock_hour"></div>
+                    <div class="clock_minute" id="clock_minute"></div>
+                    <div class="clock_second" id="clock_second"></div>
+                    <!-- Dark and light mode -->
+                    <div class="clock_theme">
+                        <i class="uil uil-moon change_theme" id="theme_button"></i>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="clock_text">
+                        <div class="clock_text_hour" id="text_hour"></div>
+                        <div class="clockPoint">:</div>
+                        <div class="clock_text_minute" id="text_minute"></div>
+                        <div class="clock_text_ampm" id="text_ampm"></div>                        
+                    </div>
+
+                    <div class="clock_date">
+                        <span id="date_day"></span>
+                        <span id="date_month"></span>
+                        <span id="date_year"></span>               
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" target="_blank" class="clock_logo">Cristooo</a>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
